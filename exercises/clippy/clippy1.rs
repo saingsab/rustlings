@@ -11,7 +11,8 @@
 fn main() {
     let x = 1.2331f64;
     let y = 1.2332f64;
-    if y != x {
+    if y = x {
         println!("Success!");
     }
 }
+// Floating point calculations are usually imprecise, so asking if two values are exactly equal is asking for trouble
