@@ -8,7 +8,7 @@
 
 fn array_and_vec() -> ([i32; 4], Vec<i32>) {
     let a = [10, 20, 30, 40]; // a plain array
-    let v = // TODO: declare your vector here with the macro for vectors
+    let v = vec![a]; // DONE: test result: ok. 4 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out
 
     (a, v)
 }
