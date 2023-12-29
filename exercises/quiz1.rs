@@ -13,11 +13,13 @@
 //
 // No hints this time ;)
 
-// I AM NOT DONE
-
 // Put your function here!
-fn calculate_price_of_apples() -> u64 {
-    35
+fn calculate_price_of_apples(p: i32) -> i32 {
+    if (p > 40) {
+        p * 1
+    } else {
+        p * 2
+    }
 }
 
 // Don't modify this function!
